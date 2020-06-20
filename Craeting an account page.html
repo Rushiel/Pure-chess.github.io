@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Your account!</title>
+	<style type="text/css">
+		body{
+			background-image: url("https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: yellow;
+		}
+		a{
+			list-style-type: none;
+			color: white;
+		}                   
+	</style>
+</head>
+<body>
+	<div>
+		<form action="Thank U page.html" method="post">
+		<label for="name">Username</label>
+		<input type="text" name="name">
+		<br>
+		<label for="email">Email</label>
+		<input type="email" name="Email">
+		<br>
+		<label for="pwd">Password</label>
+		<input type="password" name="pwd">
+		<br>
+		<input type="radio" name="gender" value="female">
+		<label for="gender">Male</label>
+		<br>
+		<input type="radio" name="gender" value="male">
+		<label for="gender">Female</label>
+		<br>
+		<p>Type a brief paragraph on chess in a document and select that</p>
+		<input type="file" name="File">
+		<br>
+		<p>When the king can't move and can be killed in the next move, what is it called?</p>
+		<input type="checkbox" name="coding" value="Checkmate">
+		<label for="coding">Checkmate</label>
+		<br>
+		<input type="checkbox" name="sports" value="Castling">
+		<label for="sports">Castling</label>
+		<br>
+		<input type="checkbox" name="lol" value="Check">
+		<label for="lol">Check</label>
+		<br>
+		<label for="date">DOB</label>
+		<input type="date" name="date">
+		<br>
+	    <textarea rows="2" cols="30" placeholder="Write the name of your favorite chess piece."></textarea>
+	    <br>
+		<input type="submit" name="submit" value="Login" style="background-color: yellow">
+		<button onclick="window.print()">Click To print and save your Changes.</button>
+		<a href="Login.html" style="color: white">Already have an account? Login!</a>
+	</form>
+	</div>
+	
+	<p></p>
+	<p></p>
+       <p></p>
+       <a href="index.html">Home</a>
+</body>
+</html>
+<script type="text/javascript">
+	alert("Thanks for registering")
+	var a = prompt("Please enter your name for further analyzation")
+	console.log(a)
+	confirm("Your changes may be lost Are u sure you want to exit?")
+</script>

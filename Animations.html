@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animations</title>
+	<style type="text/css">
+		h1{
+			text-shadow: 10px 10px 03px blue
+		}
+		p{
+			width: 500px;
+			height: 500px;
+			background-color: white;
+			position: 400px,600px;
+			animation-name: Hello;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes Hello{
+			/*from{background-color: yellow;font-size: 10px;top: 0px;left: 0px;}
+			to{background-color: green;font-size: 100px;top: 300px;left: 400px}*/
+			0%{background-color: white;font-size: 10px;font-family: cursive ;}
+			25%{background-color: red;font-size: 25px;font-family: sans-serif;transform:translate(300px,300px); }
+			100%{background-color: blue;font-size: 60px;font-family:fantasy;transform: rotate(10deg);font-weight: bold;}
+		}
+		body{
+			background-image: radial-gradient(ellipse, lightblue, green, yellow)
+		}
+		a{
+			color:white;
+			list-style-type: none;
+			padding-left: 995px
+		}
+	</style>
+</head>
+<body>
+<h1>Low cost chess classes!! <a href="index.html">Home</a></h1>    <p>Very popular!!</p>
+
+
+</body>
+</html>

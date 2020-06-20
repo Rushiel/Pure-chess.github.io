@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<b>
+<head>
+	<title>Pure Chess</title>
+	<style type="text/css">
+		ol{
+	list-style-type: none;
+}
+li:hover{
+	background-color:blue;
+}
+a{
+	text-decoration: none;
+	color: yellow;
+	margin-left: 500px
+	padding-left: ;
+}
+body{
+	background-image: url(https://wallpapercave.com/wp/wp2883266.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: red;
+	font-size: 20px;
+	font-family: fantasy;
+}
+    }
+		#loader{
+			width: 300px;
+			height:300px;
+			border: solid 17px orange;
+			border-radius: 50%;
+			border-top: solid 17px pink;
+			margin-left: auto;
+			margin-bottom: auto;
+			margin-right: auto;
+			margin-top: 300px;
+		    animation-name: loader;
+		    animation-duration: 1s; 
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    margin-top: 100px
+
+		}
+		@keyframes loader{
+			0%{transform: rotate(0deg);}
+			50%{transform: rotate(180deg);}
+			100%{transform: rotate(360deg);}
+		}
+	</style>
+
+	</style>
+	
+	<head>
+<body onload="loader()">
+	<div id="loader"></div>
+    <div id="website">
+    	<svg style="width: 650px; height: 200px; border: solid lightblue; padding-left: 420px">
+		<rect x="-100" y= "10" width= "300" height="200" fill="grey" stroke-width="5"></rect>
+		<polygon points="100, 10, 40, 198, 190, 78, 10, 78, 160, 190" stroke="maroon" fill="blue" px="190" py="170"></polygon>
+		<circle cx="100" cy="115" stroke="white" fill="yellow" r="60" stroke-width="6"></circle>
+		<text>Hello</text>
+	</svg>
+	<ol>
+	<li><a href="Login.html" target="_blank">Login</a></li>
+	<li><a href="Craeting an account page.html" target="_blank">Create Your account!</a></li>
+	<li><a href="About.html" target="_blank">About</a></li>
+	<li><a href="Levels and timings.html" target="_blank">Levels and Timings</a></li> 
+	<li><a href="Animations.html" target="_blank">Our ad</a></li> 
+    </ol>
+	</b>
+	<h1 style="font-family: cursive; ">Pure Chess</h1>
+	<p>Playing Chess is a good way to execise your mind with fun rather than studying all the time.</p>
+	<p>Playing chess requires some skills, strategies, and plans, it is like a battlefield, where players have to build strategies and </p>
+	<p>game plans. In The Pure Chess Coaching classes, we will teach you how to play chess, plan awesome strategies and convert you into a chess master.</p>
+	<iframe src="https://www.youtubekids.com/embed/YeB-1F-UKO0" style="height: 300px; padding-bottom: "></iframe>
+    </div>
+	
+</body>
+</html>
+<script type="text/javascript">
+	function loader(){
+		setTimeout(showText, 5000);
+	}
+	function showText(){
+		var a = document.getElementById('loader');
+		a.style.display="none";
+		var b = document.getElementById('website')
+		b.style.display="block";
+
+	}
+</script> 
